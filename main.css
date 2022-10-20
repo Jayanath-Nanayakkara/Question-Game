@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard-background_23-2148500604.jpg?w=740&t=st=1665292272~exp=1665292872~hmac=df1c5267d3aae3fa569d1b2f3b6621bc12c7df4fcea5002d4405912f9525052e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    background: white;
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -1px 13px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+.time {
+    text-align: right;
+    font-weight: bold;
+}
+.question{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana;
+}
+.input-area{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 50px;
+}
+.input-area > input[type=text]{
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+    background: none;
+    flex: 1;
+    padding: 0 10px;
+}
+.input-area > button{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    margin-left: 4px;
+    border-radius: 3px;
+    border: 1px solid darkslategray;
+    padding: 0 10px;
+    cursor: pointer;
+}
